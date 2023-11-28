@@ -23,11 +23,11 @@
     <main>
         <div class="container text-center">
             <h1 class="mt-5">Cronómetro</h1>
-        <p class="display-4">00:00:00</p>
+        <p class="display-4" id="cronometro">00:00:00</p>
         <div>
-            <button type="button" class="btn btn-primary">Iniciar</button>
-            <button type="button" class="btn btn-warning">Pausar</button>
-            <button type="reset" class="btn btn-danger">Reset</button>
+            <button type="button" class="btn btn-primary" onclick="iniciar()">Iniciar</button>
+            <button type="button" class="btn btn-warning" onclick="pausar()">Pausar</button>
+            <button type="reset" class="btn btn-danger" onclick="reset()">Reset</button>
         </div>
         </div>
     </main>
